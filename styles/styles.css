@@ -30,8 +30,7 @@ a:hover {
 }
 
 #top-navigation {
-	height:50px;
-	background-color:#eeeeee;
+	height:50px;;
 }
 
 #top-navigation ul {
@@ -56,6 +55,22 @@ a:hover {
 	text-decoration: underline;
 }
 
+#top-navigation li {
+	float: left;
+	padding: 5px 20px 5px 20px;
+}
+
+#top-navigation li.sign-in {
+	background-color: #4484F3;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px 0px 0px;
+}
+
+#sign-in-button{
+	color: #ffffff !important;
+}
+
+
 #body {
 	min-height: 100%;
 	width: 800px ;
@@ -68,7 +83,7 @@ a:hover {
 	text-align: center;
 }
 #main-logo img {
-	width: 600px;
+	width: 400px;
 	height: auto;	
 }
 
