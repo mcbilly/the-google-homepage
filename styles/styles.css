@@ -84,12 +84,15 @@ a:hover {
 	padding: 5px;
 }
 
-#main-body span.search-textfield input{
+#search{
 	width: 600px;
 	height: 40px;
 	border: 1px solid #dddddd;
 	font-size:20px;
 	padding: 2px 5px 2px 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #main-body span.search-textfield input:hover{
