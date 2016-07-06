@@ -1,7 +1,11 @@
 /* CSS Stylesheet */
-body {
-	margin: 0px;
-	padding: 0px;
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 div {
@@ -15,19 +19,21 @@ div {
 }
 
 #top-navigation {
-	height:60px;
+	height:50px;
 	background-color:#999999;
 }
 
 #top-navigation ul {
 	list-style-type: none;
-	padding: 0px;
+	padding: 15px 0px 15px 0px;
 	margin: 0px;
+	position: absolute;
+	right: 0;
 }
 
 #top-navigation li {
 	float: left;
-	padding: 5px 15px 5px 15px;
+	padding: 5px 20px 5px 20px;
 }
 
 #top-navigation li a {
@@ -40,13 +46,18 @@ div {
 	color: #333333;
 }
 
+#body {
+	min-height: 100%;
+}
+
 #footer {
-	background-color: #999999;
+	background-color: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	bottom: 0px;
+	left: 0px;
 }
 
 #footer  ul {
@@ -62,10 +73,23 @@ div {
 
 #footer  li a {
 	text-decoration: none;
-	color: #111111;
+	color: #666666;
+	font-size:10pt;
+	font-family: arial,sans-serif;
 }
 
 #footer  li a:hover {
 	text-decoration: underline;
-	color: #333333;
+}
+
+#footer-left {
+	position: absolute;
+	left:0;
+	padding: 5px 5px 5px 15px;
+}
+
+#footer-right {
+	position: absolute;
+	right:0;
+	padding: 5px 15px 5px 5px;
 }
